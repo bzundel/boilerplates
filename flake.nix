@@ -4,7 +4,7 @@
   outputs = { self }: {
     templates = {
       latex = {
-        path = ./latex;
+        path = self + "/latex";
         description = "Personalized LaTeX boilerplates";
       };
     };
