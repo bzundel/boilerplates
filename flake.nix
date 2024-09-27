@@ -12,6 +12,11 @@
         path = ./latex;
         description = "Personalized LaTeX boilerplates";
       };
+
+      flask = {
+        path = ./flask;
+        description = "Boilerplate for making web apps with flask";
+      };
     };
   };
 }
